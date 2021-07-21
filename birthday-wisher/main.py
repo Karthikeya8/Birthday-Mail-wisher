@@ -15,8 +15,8 @@ for value in birthday_person:
             start_letter = file.read()
             start_letter = start_letter.replace("[NAME]", value['name'])
             start_letter = start_letter.replace("Angela", 'Karthikeya_Mad')
-        my_email = 'karthikeyamad98@gmail.com'
-        password = 'Maddiv@8989'
+        my_email = 'ur-@gmail.com'
+        password = 'ur-pass'
         with smtplib.SMTP('smtp.gmail.com') as connection:
             connection.starttls()
             connection.login(user=my_email, password=password)
